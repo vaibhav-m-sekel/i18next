@@ -3,5 +3,30 @@
   "description": {
     "line1": "You're watching <1>{{channel}}</1> YouTube Channel",
     "line2": "This is an Internationalisation Tutorial"
+  },
+  "company": {
+    "name": "Sekel Tech",
+    "tagline": "Innovating Tomorrow's Technology Today",
+    "about": {
+      "title": "About Sekel Tech",
+      "description": "Sekel Tech is a leading technology company specializing in innovative solutions for businesses worldwide."
+    },
+    "services": {
+      "title": "Our Services",
+      "list": {
+        "web": "Web Development",
+        "mobile": "Mobile App Development",
+        "cloud": "Cloud Solutions",
+        "ai": "AI & Machine Learning",
+        "consulting": "IT Consulting"
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "getInTouch": "Get in Touch"
+    }
   }
 }

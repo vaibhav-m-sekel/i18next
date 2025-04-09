@@ -13,11 +13,16 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  gap: 2rem;
 }
 
 .btn-container {
   display: flex;
   gap: 10px;
+  margin-bottom: 1rem;
 }
 
 button {
@@ -41,4 +46,82 @@ button:focus-visible {
 
 button.selected {
   background-color: #646cff;
+}
+
+/* Company Content Styles */
+.company-content {
+  padding: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.company-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #646cff;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #888;
+  margin-bottom: 2rem;
+}
+
+.company-content section {
+  margin-bottom: 2rem;
+}
+
+.company-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #646cff;
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.services-list li {
+  background-color: #2a2a2a;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.services-list li:hover {
+  transform: translateY(-2px);
+}
+
+.contact-info {
+  background-color: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+}
+
+.contact-button {
+  margin-top: 1rem;
+  background-color: #646cff;
+  color: white;
+}
+
+.contact-button:hover {
+  background-color: #535bf2;
+}
+
+/* RTL Support */
+[dir="rtl"] .services-list {
+  text-align: right;
+}
+
+[dir="rtl"] .contact-info {
+  text-align: right;
 }

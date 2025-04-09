@@ -1,7 +1,32 @@
 {
-  "greeting": "Bonjour, Bienvenue !",
+  "greeting": "Bonjour, Bienvenue!",
   "description": {
     "line1": "Vous regardez la chaîne YouTube <1>{{channel}}</1>",
     "line2": "Ceci est un tutoriel d'internationalisation"
+  },
+  "company": {
+    "name": "Sekel Tech",
+    "tagline": "Innovons la technologie de demain aujourd'hui",
+    "about": {
+      "title": "À propos de Sekel Tech",
+      "description": "Sekel Tech est une entreprise technologique leader spécialisée dans des solutions innovantes pour les entreprises du monde entier"
+    },
+    "services": {
+      "title": "Nos Services",
+      "list": {
+        "web": "Développement Web",
+        "mobile": "Développement d'Applications Mobiles",
+        "cloud": "Solutions Cloud",
+        "ai": "Intelligence Artificielle & Machine Learning",
+        "consulting": "Conseil en Informatique"
+      }
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "email": "Email",
+      "phone": "Téléphone",
+      "address": "Adresse",
+      "getInTouch": "Contactez-nous"
+    }
   }
 }
