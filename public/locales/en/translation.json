@@ -28,5 +28,10 @@
       "address": "Address",
       "getInTouch": "Get in Touch"
     }
+  },
+  "posts": {
+    "title": "Latest Posts",
+    "loading": "Loading posts...",
+    "error": "Error loading posts: {{error}}"
   }
 }

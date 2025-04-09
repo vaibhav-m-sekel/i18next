@@ -116,3 +116,56 @@ button.selected {
 [dir="rtl"] .contact-info {
   text-align: right;
 }
+
+/* Posts Styles */
+.posts-container {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.post-card {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+}
+
+.post-card h3 {
+  color: #646cff;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.post-card p {
+  color: #888;
+  line-height: 1.6;
+}
+
+.posts-loading,
+.posts-error {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.posts-error {
+  color: #ff4444;
+}
+
+/* RTL Support for Posts */
+[dir="rtl"] .post-card {
+  text-align: right;
+}

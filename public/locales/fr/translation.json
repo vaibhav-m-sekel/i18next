@@ -28,5 +28,10 @@
       "address": "Adresse",
       "getInTouch": "Contactez-nous"
     }
+  },
+  "posts": {
+    "title": "Derniers Articles",
+    "loading": "Chargement des articles...",
+    "error": "Erreur lors du chargement des articles : {{error}}"
   }
 }
